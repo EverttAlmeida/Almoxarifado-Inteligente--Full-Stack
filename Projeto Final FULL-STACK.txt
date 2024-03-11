@@ -1,0 +1,86 @@
+-- Projeto Final FULL-STACK Almoxarifado Inteligente --
+
+Grupos
+   - Grupos de 3 pessoas e um de 2
+   - Apresentação em grupo
+
+Foco
+   -
+
+Não é prioridade
+   - Tela de Login não é necessária seria um ponto extra
+
+Editável
+   - Tudo menos o código e preço
+
+Anotações
+  -Talvez usar DataTables
+  -A tela de requisição não precisa de banco de dados
+  -Na tela de gestão de produtos ter um menu de configuração
+para escolher o email para benchmarking
+  -Campo de preço começara como zero por padrão
+  -Tudo menos o código e preço devem ser editáveis nas linhas da 
+tabela na tela de gestão de produto
+  -Receberemos um endpoint para mandar os preços e o melhor 
+preço da raspagem
+   - Ter um email padrão preenchido para destinatário
+
+Dúvidas
+   - Sobre o tooltip na tela de gestão de produtos
+
+Web
+
+
+Entregas Macros
+ -Dentro da solução pastas o front, back e database
+E1 - DER(Diagrama Entidade Relacionamento) e Banco(script)
+E2 - ASP.NET, SQL, Entity, Swagger
+E3 - Gestão de produtos - React
+E4 - BENCHMARKING CRAWLER - httpClient, webscrapping
+E5 - Requisição - React
+E6 - Logs do Benchmarking
+
+E1 - DER e Banco
+   - Entregar DER, Script do banco de dados para SQL Server
+   - * Opcional(eu) script para popular o banco de dados
+
+E2 - API Almoxarifado
+   - ASP.Net core | .NET 6.0
+   - Bearer Token - Autentificação
+   - JSON - Formato para envio e recebimentos no endpoint
+   - Swagger ativado também em modo produção
+
+E3 - Gestão de produto * texto incompleto
+Dica: link alternativo direto que não precisa de autentificação
+ -Tabela com código, descrição, preço, Estoque Atual, Estoque Mínimo e botões
+  - Botões
+   - Excluir: só pode excluir produtos que não tem nenhuma requisição relacionada.
+ -Tela de cadastro de produto
+ -Tela de login (fazer depois)
+
+E4 - Benchmarking
+   - Não pode usar Selenium, deve usar httprquest ou httpclient
+
+E5 - Requisição
+  - Não precisa criar uma tela para departamento e funcionários, só ter no banco de dados
+  - Fazer e garantir que todo os produtos a serem usados na tela de requisição 
+devem está relacionado a tela de GESTÃO DE PRODUTOS
+  - Ter botão na tela para adicionar categoriaMotivo e motivo
+
+Requisitos Não funcionais
+
+ BackEnd (Csharp API, Asp.net core)
+ FrontEnd (React)
+ Banco de dados: SQL (CRIE seu próprio banco de dados)
+ ORM: Entity Framework ou dapper
+
+Código Limpo
+   -Principalmente o SOLID
+   -Deixar o código escalável e de fácil manutenção
+ SOLID
+ Design Pattern
+ TDD (para regras de negócio)
+ DDD
+ MVC
+
+Deixar API Online

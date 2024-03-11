@@ -1,0 +1,40 @@
+Teste feito por Mario (Análise do código)
+
+    -CT1
+        - 1 Completo 
+        - 2 Completo
+        - 3 Completo
+    
+    -CT2
+        - 1 Completo
+        - 2 Completo
+
+    -CT3, CT4, CT5 - Completo
+
+    -CT6
+        - 1 Completo
+        - 2 Completo
+
+    -CT7 - Completo
+
+    -CT8, CT9, CT10 - Completo
+
+Teste feito por Eduarda (CasoTestes)
+
+    -CT1, CT2 - Completo
+
+    -CT3 - Completo
+
+    -CT4, - Completo
+
+    -CT5 - Completo
+
+    -CT6, CT7, CT8 - Completo
+
+    -CT9 - Completo
+
+    -CT10 - Completo
+
+    -CT11 - Completo
+
+    -CT12, CT13, CT14 - Completo

@@ -1,0 +1,230 @@
+input, select{
+    border-color: #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 25px;
+}
+
+#categoriaMotivo, #Motivo {
+    font-size: large;
+    /* vertical-align: middle; */
+}
+
+.chkPrioridade{
+    display: inline;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+:checked{
+    transition-duration: 1000ms;  
+    width: 20px;
+    height: 20px;
+}
+
+.grupoInput span{
+    font-size: 16px;
+}
+#idDepartamento{
+    width: 60px;
+}
+#departamento{
+    width: 450px;
+    /* width: 450px; */
+}
+#dataRequisicao{
+    font-size: large;
+    width: 120px;
+}
+#idFuncionario{
+    width: 60px;
+}
+#NomeFuncionario{
+    width: 450px;
+}
+#cargo{
+    width: 120px;
+}
+#categoriaMotivo{
+    width: 130px;
+}
+#Motivo{
+    width: 200px;
+    background-color: white;
+}
+#Motivo:disabled {
+    background-color: grey;
+}
+.grupo9{
+    width: 250px;
+}
+
+.camposItens span{
+    font-size: 16px;
+}
+.grupoProduto{
+    width: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.grupoProduto input{
+    width: 90px;
+}
+
+.grupoProdutoDescricao{
+    width: 300px;
+    margin-right: 5px;
+}
+.grupoProdutoDescricao input{
+    width: 300px;
+}
+.grupoEstoque{
+    width: 80px;
+}
+.grupoEstoque input{
+    width: 80px;
+}
+
+.grupoQuantidade{
+    width: 80px;
+    margin-left: 25px;
+}
+.grupoQuantidade input{
+    width: 80px;
+}
+
+#btnInserirItens {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+#btnInserirItens:disabled {
+    background-color: #0094c559;
+}
+
+.BtnInserirItens{
+    background-color:#0095C5;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: none;
+    /* cursor: pointer; */
+}
+
+.BtnInserirItens span{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.grupoBtnGravar{
+    background-color:#0095C5 ;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+
+}
+#btnGravar {
+    background-color:#0095C5 ;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#btnGravar:disabled {
+    background-color: #0094c559;
+}
+#btnGravar span{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.chkPrioridade{
+    appearance: none;
+    width: 20px;
+    height: 20px;     
+    border: 1px solid #000000;  
+    border-radius: 50%;
+    
+}
+
+.chkPrioridadeDesabilitado{
+    appearance: none;
+    width: 20px;
+    height: 20px;     
+    border: 1px solid #ffffff;  
+    border-radius: 50%;
+}
+
+#urgente, #medio, #baixo{
+    border: 1px solid black;
+}
+
+#urgente:checked{
+    border: 1px solid red;      
+    background-color: red;
+    transform: scale(1.2);
+}
+#medio:checked{
+    border: 1px solid yellow;      
+    background-color: yellow;
+    transform: scale(1.2);    
+}
+#baixo:checked{
+    border: 1px solid green;      
+    background-color: green;
+    transform: scale(1.2);
+}
+
+.tabelaItens{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight:unset;
+    table-layout: fixed;
+}
+.tabelaItens th{
+    background-color:#15C7FF; 
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse; 
+    color: white; 
+   
+    text-align: left;
+    padding-left: 10px;
+}
+.tabelaItens tr, .tabelaItens td{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    padding-left: 10px;
+}
+
+#Quantidade {
+    background-color: white;
+}
+#Quantidade:disabled {
+    background-color: grey;
+    color: grey;
+}
+
+#DescricaoProduto:disabled, #Estoque:disabled {
+    background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .input-grande, #departamento, #NomeFuncionario {
+        width: 100%;
+    }
+}

@@ -1,0 +1,238 @@
+*{
+    color: #000000;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;    
+    align-items: center;
+    justify-content: center;  
+
+}
+.header{
+    width: 50vw;
+    height: 5vh;
+    background-color: #15C7FF;   
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+  
+}
+.header span{
+    color: #ffffff;
+}
+.conteudo{
+    /* background-color: yellow; */
+    padding-top: 3vh;
+    width: 50vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-color:  #CDCDCD;;
+    /* border-radius: 20px; */
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: solid;
+    flex-wrap: wrap;
+  
+}
+#camposPrincipais{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    flex-wrap: wrap;
+}
+.linhasCampos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grupoInput{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.grupo9{
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+
+}
+.radioPrioridade{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 1px;
+    padding-right: 5px;
+    border-color: #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.radioPrioridadeDesabilitado{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 1px;
+    padding-right: 5px;
+
+    /* border-color: #CDCDCD; */
+    border-color: red;
+
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+
+    /* background-color: red; */
+    background-color: #ffffff;
+
+    color:#ffffff;
+}
+
+
+.grupoPrioridade{
+    display: flex;
+    padding-left: 2px;    
+}
+
+.grupoCategoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAdd{    
+    width: 30px;
+    height: 30px;
+   
+}
+.btnAdd:hover{
+    cursor: pointer; 
+    scale: 1.5;    
+    transition-duration: 1000ms;    
+
+}
+
+.grupoMotivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+
+}
+
+/* ITENS */
+.camposItens{
+    display: flex;
+    flex-direction: column;
+    border-color: #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;    
+    width: 100%;
+    
+}
+.linhaAdicionarItens{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;        
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    flex-wrap: wrap;
+}
+.grupoStatusEstoque{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 5px;           
+}
+.grupoStatusEstoque img{
+    display: inline;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+#verde, #amarelo, #vermelho{
+    display: none;
+}
+
+/*Tooltip*/
+
+  
+  /* Tooltip text */
+  .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(255, 251, 211);
+    border: 2px solid rgb(190, 190, 6);
+    border-radius: 7%;
+    /* width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px; */
+   
+    /* Position the tooltip text - see examples below! */
+    /* z-index: 1; */
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .grupoStatusEstoque .imgStatusEstoque:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.grupoBtnInserirItens{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 5px; 
+}
+
+.tabelaItens{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 940px) {
+    .conteudo, .header, .main {
+        width: 95vw;
+    }
+
+    .input-grande {
+        width: 100%;
+    }
+}
