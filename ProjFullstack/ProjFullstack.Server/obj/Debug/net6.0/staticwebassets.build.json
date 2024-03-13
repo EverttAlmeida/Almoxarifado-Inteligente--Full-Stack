@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "DXhym9KEMIcz2YHFaZyZ9CXM7E1hj8XSGCYaE34VuBc=",
+  "Source": "ProjFullstack.Server",
+  "BasePath": "_content/ProjFullstack.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\projfullstack.client.esproj",
+      "Version": 2,
+      "Source": "projfullstack.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

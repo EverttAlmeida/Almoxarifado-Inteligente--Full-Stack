@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\..\\projfullstack.client",
+"MaxTimeoutInSeconds": "120"
+}
+}
