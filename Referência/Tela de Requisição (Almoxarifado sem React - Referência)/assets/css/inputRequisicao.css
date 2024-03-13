@@ -216,7 +216,8 @@ input, select{
 }
 #Quantidade:disabled {
     background-color: grey;
-    color: grey;
+    /* color: grey; */
+    color: transparent;
 }
 
 #DescricaoProduto:disabled, #Estoque:disabled {
