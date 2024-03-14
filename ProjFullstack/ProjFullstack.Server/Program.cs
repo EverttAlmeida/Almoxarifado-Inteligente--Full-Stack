@@ -1,3 +1,10 @@
+using NuGet.Protocol.Core.Types;
+using ProjFullstack.Server.Controllers;
+using ProjFullstack.Server.Models;
+using System.Configuration;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,10 +14,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<db_almoxarifado_inteligente_APIContext>();
+
 var app = builder.Build();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
