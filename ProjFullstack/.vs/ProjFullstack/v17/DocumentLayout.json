@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -11,24 +23,24 @@
       "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\projfullstack.client.esproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -43,24 +55,8 @@
       "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\projfullstack.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|solutionrelative:projfullstack.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0952F623-979A-49D8-9C0F-0B4E65692F83}|ProjFullstack.Server\\ProjFullstack.Server.csproj|solutionrelative:projfullstack.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A34EF4E-05EE-46D8-9D5C-8691EBA18E11}|projfullstack.client\\projfullstack.client.esproj|c:\\users\\xxx\\onedrive\\\u00E1rea de trabalho\\est\u00E1gio\\projetos senai\\projeto final\\almoxarifado-inteligente--full-stack\\projfullstack\\projfullstack.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -90,50 +86,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launch.json",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.vscode\\launch.json",
-              "RelativeDocumentMoniker": "projfullstack.client\\.vscode\\launch.json",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.vscode\\launch.json",
-              "RelativeToolTip": "projfullstack.client\\.vscode\\launch.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-14T17:33:11.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "ProjFullstack.Server\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\WeatherForecast.cs",
-              "RelativeToolTip": "ProjFullstack.Server\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T17:28:00.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "projfullstack.client\\src\\App.jsx",
               "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\App.jsx",
               "RelativeToolTip": "projfullstack.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-03-14T17:10:59.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\Properties\\launchSettings.json",
@@ -146,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\vite.config.js",
               "RelativeDocumentMoniker": "projfullstack.client\\vite.config.js",
@@ -159,96 +129,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\README.md",
-              "RelativeDocumentMoniker": "projfullstack.client\\README.md",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\README.md",
-              "RelativeToolTip": "projfullstack.client\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-03-14T17:26:56.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\index.css",
               "RelativeDocumentMoniker": "projfullstack.client\\src\\index.css",
               "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\index.css",
               "RelativeToolTip": "projfullstack.client\\src\\index.css",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAABMAAAARAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAIgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-14T17:25:41.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "projfullstack.client",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\projfullstack.client.esproj",
-              "RelativeDocumentMoniker": "projfullstack.client\\projfullstack.client.esproj",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\projfullstack.client.esproj",
-              "RelativeToolTip": "projfullstack.client\\projfullstack.client.esproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-14T17:40:43.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.gitignore",
-              "RelativeDocumentMoniker": "projfullstack.client\\.gitignore",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.gitignore",
-              "RelativeToolTip": "projfullstack.client\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-14T17:26:28.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ProjFullstack.Server",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "RelativeToolTip": "ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-14T02:19:31.207Z",
+              "WhenOpened": "2024-03-14T02:19:31.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ProjFullstack.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Program.cs",
+              "RelativeToolTip": "ProjFullstack.Server\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:08:53.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\index.html",
-              "RelativeDocumentMoniker": "projfullstack.client\\index.html",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\index.html",
-              "RelativeToolTip": "projfullstack.client\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-03-14T17:20:43.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\App.css",
-              "RelativeDocumentMoniker": "projfullstack.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\App.css",
-              "RelativeToolTip": "projfullstack.client\\src\\App.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-14T17:43:27.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "projfullstack.client\\src\\main.jsx",
@@ -261,16 +179,89 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\App.css",
+              "RelativeDocumentMoniker": "projfullstack.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\src\\App.css",
+              "RelativeToolTip": "projfullstack.client\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-14T17:43:27.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\index.html",
+              "RelativeDocumentMoniker": "projfullstack.client\\index.html",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\index.html",
+              "RelativeToolTip": "projfullstack.client\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-14T17:20:43.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "projfullstack.client\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.vscode\\launch.json",
+              "RelativeToolTip": "projfullstack.client\\.vscode\\launch.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-14T17:33:11.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProjFullstack.Server",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.gitignore",
+              "RelativeDocumentMoniker": "projfullstack.client\\.gitignore",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\.gitignore",
+              "RelativeToolTip": "projfullstack.client\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T17:26:28.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "projfullstack.client",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\projfullstack.client.esproj",
+              "RelativeDocumentMoniker": "projfullstack.client\\projfullstack.client.esproj",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\projfullstack.client.esproj",
+              "RelativeToolTip": "projfullstack.client\\projfullstack.client.esproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T17:40:43.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\README.md",
+              "RelativeDocumentMoniker": "projfullstack.client\\README.md",
+              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\projfullstack.client\\README.md",
+              "RelativeToolTip": "projfullstack.client\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-03-14T17:26:56.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjFullstack.Server.csproj",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "RelativeToolTip": "ProjFullstack.Server\\ProjFullstack.Server.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-14T17:27:36.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T17:27:36.664Z"
             },
             {
               "$type": "Document",
@@ -282,25 +273,11 @@
               "RelativeToolTip": "ProjFullstack.Server\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-14T02:27:59.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T02:27:59.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Program.cs",
-              "RelativeDocumentMoniker": "ProjFullstack.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Program.cs",
-              "RelativeToolTip": "ProjFullstack.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T02:08:53.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Models\\Estoque.cs",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\Models\\Estoque.cs",
@@ -312,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "db_almoxarifado_inteligente_APIContext.cs",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Models\\db_almoxarifado_inteligente_APIContext.cs",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\Models\\db_almoxarifado_inteligente_APIContext.cs",
@@ -320,12 +297,11 @@
               "RelativeToolTip": "ProjFullstack.Server\\Models\\db_almoxarifado_inteligente_APIContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T22:22:02.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T22:22:02.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\Controllers\\WeatherForecastController.cs",
@@ -337,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "EstoquesController.cs",
               "DocumentMoniker": "C:\\Users\\XXX\\OneDrive\\\u00C1rea de Trabalho\\Est\u00E1gio\\Projetos Senai\\Projeto Final\\Almoxarifado-Inteligente--Full-Stack\\ProjFullstack\\ProjFullstack.Server\\Controllers\\EstoquesController.cs",
               "RelativeDocumentMoniker": "ProjFullstack.Server\\Controllers\\EstoquesController.cs",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjFullstack.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+380c7bfc7d148ac8c294174ffb20853ab2f37999")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef200c2a5c4b26802e9d180981ffae4370306d8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjFullstack.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjFullstack.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

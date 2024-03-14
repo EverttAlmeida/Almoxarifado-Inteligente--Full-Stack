@@ -125,8 +125,24 @@ button {
     margin-right: 5px;
     border: none;
     cursor: pointer;
+    
 }
 
-    button:hover {
-        opacity: 0.8;
-    }
+td button {
+
+    width: 43px;
+    height: 37px;
+    background: none;
+    margin: 0 auto;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btnicons {
+    width: 43px;
+    height: 37px;
+}
+
