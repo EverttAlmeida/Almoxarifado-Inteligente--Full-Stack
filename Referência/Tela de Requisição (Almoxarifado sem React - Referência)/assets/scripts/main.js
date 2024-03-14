@@ -170,15 +170,18 @@ function carregarProduto() {
         document.getElementById('DescricaoProduto').value = produtosFiltrados[0].Descricao;
         document.getElementById('Estoque').value = produtosFiltrados[0].Estoque;
         if (document.getElementById('Estoque').value <= 0) {
+            //Desabilita o campo
             document.getElementById('Quantidade').setAttribute("disabled", true);
             document.getElementById('Quantidade').value = "";
         }
         else {
+            //Habilita o campo
             document.getElementById('Quantidade').removeAttribute("disabled");
             document.getElementById('Quantidade').value = 1;
         }
 
         //Mostra o status do estoque com cores
+        /*
         if (document.getElementById('Estoque').value >= produtosFiltrados[0].EstoqueMinimo*1.1) {
             document.getElementById('verde').style.display = 'inline';
             document.getElementById('amarelo').style.display = 'none';
@@ -194,6 +197,8 @@ function carregarProduto() {
             document.getElementById('amarelo').style.display = 'none';
             document.getElementById('vermelho').style.display = 'inline';
         }
+        */
+        corStatusEstoque(codigoPesquisado);
     }
     else{
         document.getElementById('verde').style.display = 'none';
@@ -215,6 +220,27 @@ function carregarProduto() {
     validarQuantidade();
 }
 
+function corStatusEstoque(codigoPesquisado){
+    let produtosFiltrados = produtos.filter((p)=>p.idProduto == codigoPesquisado);
+
+    //Mostra o status do estoque com cores
+    if (document.getElementById('Estoque').value >= produtosFiltrados[0].EstoqueMinimo*1.1) {
+        document.getElementById('verde').style.display = 'inline';
+        document.getElementById('amarelo').style.display = 'none';
+        document.getElementById('vermelho').style.display = 'none';
+    }
+    else if(document.getElementById('Estoque').value >= produtosFiltrados[0].EstoqueMinimo){
+        document.getElementById('verde').style.display = 'none';
+        document.getElementById('amarelo').style.display = 'inline';
+        document.getElementById('vermelho').style.display = 'none';
+    }
+    else{
+        document.getElementById('verde').style.display = 'none';
+        document.getElementById('amarelo').style.display = 'none';
+        document.getElementById('vermelho').style.display = 'inline';
+    }
+}
+
 // document.getElementById('CodigoProduto').addEventListener('change', function(){
 //     //Valida a entrada de dados CodigoProduto
 //     let codigoProduto = document.getElementById('CodigoProduto').value;
@@ -232,7 +258,7 @@ function validarQuantidade() {
     let campoQuantidade = document.getElementById('Quantidade');
     let campoEstoque = document.getElementById('Estoque');
 
-    if (campoQuantidade.value < 0) {
+    if (campoQuantidade.value < 0 && campoQuantidade.value != "") {
         campoQuantidade.value = Math.abs(campoQuantidade.value);
         //console.log("Quantidade negativa mudada para positiva");
     }
@@ -245,12 +271,16 @@ function validarQuantidade() {
     //if (campoQuantidade.value < campoEstoque.value) {
     if (quantidade <= estoque && quantidade > 0 && Number.isInteger(quantidade)) {
         document.getElementById('btnInserirItens').removeAttribute("disabled");
+        document.getElementById('Quantidade').style.backgroundColor = "white";
         //console.log("Quantidade válida");
     }
     else {
         document.getElementById('btnInserirItens').setAttribute("disabled", true);
+        document.getElementById('Quantidade').value = "";
+        document.getElementById('Quantidade').style.backgroundColor = "grey";
         //console.log("Quantidade inválida");
     }
+
 }
 document.getElementById('Quantidade').addEventListener("keyup", function(){
     validarQuantidade();
@@ -264,30 +294,30 @@ function atualizarEstoque(){
     //let campoQuantidade = document.getElementById('Quantidade');
     let tabelaItens = document.getElementById('tabelaItens');
     let linhas = tabelaItens.children;
-    let codigoProduto = parseInt(document.getElementById('codigoProduto'));
-    
-    //Problema o codigo vem como null
-    console.log(codigoProduto);
-    console.log(linhas);
-    console.log("função atualizarEstoque() ativada");
-    for (let index = 1; index < linhas.length; index++) {
-        console.log(linhas[index].children[0].innerHTML + codigoProduto);
-        //Checa se a linha tem o código pesquisado
-        if (codigoProduto == parseInt(linhas[index].children[0].innerHTML)) {
-            //Diminui o estoque pela quantidade de itens pedidos
-            console.log("if atualizarEstoque() ativado")
-            campoEstoque.value = parseInt(campoEstoque.value) - parseInt(linhas[index].children[2].innerHTML);
-            console.log(parseInt(linhas[index].children[2].innerHTML));
-            return;
+    let codigoProduto = parseFloat(document.getElementById('CodigoProduto').value);
+
+    //Se um codigoProduto válido for selecionado
+    if (codigoProduto != null && codigoProduto > 0) {
+
+        //Subtrai o valor do campo estoque pelo valor já pedido abaixo
+        for (let index = 1; index < linhas.length; index++) {
+
+            //Checa se a linha tem o código pesquisado
+            if (codigoProduto == parseInt(linhas[index].children[0].innerHTML)) {
+                //Prepara o campo Estoque para a atualização
+                let produtosFiltrados = produtos.filter((p)=>p.idProduto == codigoProduto);
+                campoEstoque.value = parseInt(produtosFiltrados[0].Estoque);
+
+                //Diminui o estoque pela quantidade de itens pedidos
+                campoEstoque.value = parseInt(campoEstoque.value) - parseInt(linhas[index].children[2].innerHTML);
+
+                //Mudar a cor que representa o status do estoque
+                corStatusEstoque(codigoProduto);
+                return;
+            }
+            
         }
-        
     }
-
-}
-
-function checaQuant(){
-
-    validarQuantidade();
 
 }
 
@@ -379,6 +409,9 @@ function criarBtnRemover(tabela, objLinha, numeroLinha){
 
         totalNumeroParaTexto();
 
+        //Resetar campos
+        document.getElementById('CodigoProduto').value = "";
+        carregarProduto();
     });
 
     return btnRemoverItem;
@@ -393,13 +426,14 @@ document.getElementById('btnInserirItens').addEventListener('click', function(){
  
     const produtoPesquisado = produtos.filter((p)=>p.idProduto==campoProduto.value);
 
-    //Código novo atualizar estoque
+    //Código novo atualizar estoque -
     // Link: https://amandexspeed.github.io/Almoxarifado/
 
-    var campoEstoque = parseFloat(produtoPesquisado[0].Estoque);
+    //var campoEstoque = parseFloat(produtoPesquisado[0].Estoque);
+    let campoEstoque = document.getElementById('Estoque');
     const campoQuantidade = document.getElementById('Quantidade');
   
-    if((parseFloat(campoQuantidade.value)>0) && (parseFloat(campoEstoque)-parseFloat(campoQuantidade.value)>0)){
+    if((parseFloat(campoQuantidade.value)>0) && (parseFloat(campoEstoque.value)-parseFloat(campoQuantidade.value)>=0)){
       
       const tabelaItens = document.getElementById('tabelaItens');
       const campoDescricaoProduto = document.getElementById('DescricaoProduto');
@@ -419,18 +453,20 @@ document.getElementById('btnInserirItens').addEventListener('click', function(){
   
           if(linhas[i].children[1].innerHTML==campoDescricaoProduto.value){
             //console.log("Entrou no if");
-            if(parseFloat(linhas[i].children[2].innerHTML)+parseFloat(campoQuantidade.value)<produtoPesquisado[0].Estoque){
+            //console.log(parseFloat(campoQuantidade.value) + " " + campoEstoque.value);
+            //if(parseFloat(linhas[i].children[2].innerHTML)+parseFloat(campoQuantidade.value)<produtoPesquisado[0].Estoque){
+            if(parseFloat(campoQuantidade.value)<=campoEstoque.value){
               
-            linhas[i].children[2].innerHTML = parseFloat(linhas[i].children[2].innerHTML) + parseFloat(campoQuantidade.value);
-            linhas[i].children[5].innerHTML = valorNumeroParaTexto(parseFloat(valorTextoParaNumero(linhas[i].children[2].innerHTML)) * parseFloat(valorTextoParaNumero(linhas[i].children[4].innerHTML)));
+                linhas[i].children[2].innerHTML = parseFloat(linhas[i].children[2].innerHTML) + parseFloat(campoQuantidade.value);
+                linhas[i].children[5].innerHTML = valorNumeroParaTexto(parseFloat(valorTextoParaNumero(linhas[i].children[2].innerHTML)) * parseFloat(valorTextoParaNumero(linhas[i].children[4].innerHTML)));
 
-            totalTextoParaNumero();
-            //Total
-            //totalRequisicao.value = parseFloat(valorTextoParaNumero(linhas[i].children[5].innerHTML)) + parseFloat(valorTextoParaNumero(totalRequisicao.value));
-            totalRequisicao.value = valorNumeroParaTexto(parseFloat(valorTextoParaNumero(campoQuantidade.value)) * parseFloat(valorTextoParaNumero(linhas[i].children[4].innerHTML)) + parseFloat(valorTextoParaNumero(totalRequisicao.value)));
-            //corBloco();
+                totalTextoParaNumero();
+                //Total
+                //totalRequisicao.value = parseFloat(valorTextoParaNumero(linhas[i].children[5].innerHTML)) + parseFloat(valorTextoParaNumero(totalRequisicao.value));
+                totalRequisicao.value = valorNumeroParaTexto(parseFloat(valorTextoParaNumero(campoQuantidade.value)) * parseFloat(valorTextoParaNumero(linhas[i].children[4].innerHTML)) + parseFloat(valorTextoParaNumero(totalRequisicao.value)));
             
-            }else{
+            }
+            else{
                 totalTextoParaNumero();
                 totalRequisicao.value = parseFloat(totalRequisicao.value) + parseFloat(campoQuantidade.value*produtoPesquisado[0].Preco);
 
@@ -502,11 +538,10 @@ document.getElementById('btnInserirItens').addEventListener('click', function(){
     document.getElementById('CodigoProduto').value = "";
     carregarProduto();
     totalNumeroParaTexto();
-}else{
-
-    alert("Sem estoque")
-
-}})
+}
+else{
+    alert("Sem estoque 1")}
+})
 
 document.getElementById('total').addEventListener("change", function () {
     const campoPrecoTotal = document.getElementById('total');
