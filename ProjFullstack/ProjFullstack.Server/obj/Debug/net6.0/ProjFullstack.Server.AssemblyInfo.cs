@@ -14,10 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjFullstack.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08204c9438f4ac2665383fda7b4fd076831540dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+380c7bfc7d148ac8c294174ffb20853ab2f37999")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjFullstack.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjFullstack.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("pt")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
